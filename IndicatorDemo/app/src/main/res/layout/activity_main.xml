@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--还有其他属性具体看自定义属性-->
+    <com.ct.ctindicator.CtIndicatorNew
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        app:text_color="#333333"
+        app:choose_color="#f38800"
+        app:text_size="16sp"
+        app:text_padding="8dp"
+        app:indicator_heigh="3dp"
+        app:indicator_padding="16dp"
+        >
+
+    </com.ct.ctindicator.CtIndicatorNew>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

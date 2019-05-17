@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ct_indicator">
+        <attr name="duration" format="integer" />
+        <attr name="text_color" format="color" />
+        <attr name="choose_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_padding" format="dimension" />
+        <attr name="indicator_heigh" format="dimension" />
+        <attr name="indicator_padding" format="dimension" />
+    </declare-styleable>
+</resources>
